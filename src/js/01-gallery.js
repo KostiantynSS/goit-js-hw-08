@@ -9,7 +9,7 @@ const refs = {
 const galleryListImages = galleryItems.map(image => {
   const li = document.createElement('li');
   li.classList.add('gallery__item');
-  li.innerHTML = `< a class="gallery__link" href="${image.original}">
+  li.innerHTML = `<a class="gallery__link" href="${image.original}">
     <img class='gallery__image'  src='${image.preview}' alt='${image.description}' /> </a>`;
 
   return li;
